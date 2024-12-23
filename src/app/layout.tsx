@@ -20,6 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="The GSAP Concepts"
+          content="Scroll animation projects built with GSAP, Lenis and Motion, written in Next.JS"
+        />
+      </head>
       <body suppressHydrationWarning>{children}</body>
     </html>
   );

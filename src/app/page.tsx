@@ -168,7 +168,10 @@ const GalleryPage = () => {
 
   return (
     <main className="container" ref={scope}>
-      <section className="about relative flex h-screen w-screen flex-col justify-center bg-black p-40">
+      <section className="about relative flex h-screen w-screen flex-col justify-center bg-black p-4 lg:p-40">
+        <h1 className="text-lg opacity-0 lg:text-3xl">
+          Today's Featured GSAP Concept:
+        </h1>
         <h1 className="text-3xl opacity-0 lg:text-9xl">Deja Vu</h1>
         <h1 className="text-3xl opacity-0 lg:text-9xl">Moments</h1>
       </section>
@@ -258,8 +261,11 @@ const GalleryPage = () => {
           />
         </div>
       </section>
-      <section className="about relative flex h-screen w-screen items-center justify-center bg-black">
-        <p>The GSAP Concepts | 2024</p>
+      <section className="about relative flex h-screen w-screen flex-col items-center justify-center gap-2 bg-black">
+        <p>The GSAP Concepts, 2024</p>
+        <p>
+          Contact: <a href="mailto:contact@hinzik.dev">contact@hinzik.dev</a>
+        </p>
       </section>
     </main>
   );
