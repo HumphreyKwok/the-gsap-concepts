@@ -55,13 +55,13 @@ export default function Home() {
         className="absolute left-0 top-0 z-10 flex h-screen w-full flex-col gap-10 bg-gray-50 p-10 font-bold tracking-tight text-neutral-950"
       >
         <h1 id="title-1" className="text-9xl">
-          Designer
+          GSAP
         </h1>
         <h1 id="title-2" className="text-9xl">
-          Developer
+          Lenis
         </h1>
         <h1 id="title-3" className="text-9xl">
-          Degital Nomad
+          Motion
         </h1>
       </div>
       <div

@@ -9,7 +9,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "The GSAP Concepts",
-  description: "Lots of pages animated with gsap",
+  description:
+    "Scroll animation projects built with GSAP, Lenis and Motion, written in Next.JS",
 };
 
 export default function RootLayout({
