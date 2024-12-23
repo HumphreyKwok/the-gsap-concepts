@@ -174,7 +174,7 @@ const GalleryPage = () => {
       </section>
 
       <section className="pinned relative h-screen w-screen bg-neutral-950">
-        <div className="info absolute top-1/2 z-10 hidden w-screen -translate-y-1/2 items-center justify-between p-40 lg:flex">
+        <div className="info absolute top-1/2 z-10 hidden w-screen -translate-y-1/2 items-center justify-between p-10 lg:flex">
           {/* <div className="title">
             <p className="uppercase">Title</p>
           </div>

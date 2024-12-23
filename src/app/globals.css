@@ -14,8 +14,19 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html,
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+@layer utilities {
+  .dejavu-clip-path {
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  }
 }
