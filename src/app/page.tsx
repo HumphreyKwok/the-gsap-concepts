@@ -168,12 +168,12 @@ const GalleryPage = () => {
 
   return (
     <main className="container" ref={scope}>
-      <section className="about relative flex h-screen w-screen flex-col justify-center bg-black p-4 lg:p-40">
+      <section className="about relative flex h-screen w-screen flex-col justify-center bg-black p-4 text-neutral-200 lg:p-40">
         <h1 className="text-lg opacity-0 lg:text-3xl">
           Today&#39;s Featured GSAP Concept:
         </h1>
-        <h1 className="text-3xl opacity-0 lg:text-9xl">Deja Vu</h1>
-        <h1 className="text-3xl opacity-0 lg:text-9xl">Moments</h1>
+        <h1 className="text-7xl opacity-0 lg:text-9xl">Deja Vu</h1>
+        <h1 className="text-7xl opacity-0 lg:text-9xl">Moments</h1>
       </section>
 
       <section className="pinned relative h-screen w-screen bg-neutral-950">
