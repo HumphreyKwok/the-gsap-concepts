@@ -14,17 +14,27 @@
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html,
-body {
+body,
+#__next {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
 }
+
+body {
+  padding-top: env(safe-area-inset-top);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  box-sizing: border-box;
+}
+
 @layer utilities {
   .dejavu-clip-path {
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
