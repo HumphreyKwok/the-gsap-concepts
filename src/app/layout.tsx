@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
-// const scopeOne = Scope_One({
-//   variable: '--font-scope-one',
-//   subsets: ['latin'],
-//   weight: '400',
-// });
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "The GSAP Concepts",
@@ -21,12 +16,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta
-          name="The GSAP Concepts"
-          content="Scroll animation projects built with GSAP, Lenis and Motion, written in Next.JS"
-        />
+        <meta name="apple-mobile-web-app-title" content="The GSAP Concepts" />
       </head>
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
