@@ -6,10 +6,13 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
+import { redirect } from "next/navigation";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const GalleryPage = () => {
+  redirect("/whiplash");
+
   const scope = useRef(null);
   useGSAP(
     () => {
